@@ -85,8 +85,8 @@ def main():
     print('Configuration:')
     print(json.dumps(config))
 
-    app.run(port=8080,
-            host='0.0.0.0')
+    app.run(port=5000,
+            host='127.0.0.1')
 
 if __name__ == "__main__":
     main()
